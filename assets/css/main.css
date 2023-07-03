@@ -1580,6 +1580,12 @@ input, select, textarea {
 				width: auto;
 			}
 
+		#profile-img {
+			width: 400px;
+			border-radius: 200px;
+			margin: auto;
+		}
+
 /* List */
 
 	ul {
