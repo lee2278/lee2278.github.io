@@ -1,389 +1,226 @@
-<!DOCTYPE HTML>
-<!--
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Carmen Lee</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carmen Lee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script
+      src="https://kit.fontawesome.com/284e3b42b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section class="sec-1">
+      <div class="container">
+        <h1 class="section-title title-slide">Hi, I'm Carmen Lee</h1>
+        <div class="content">
+          <div class="info slide-from-left">
+            <h3>I'm a software engineer that enjoys building innovative web applications.</h3>
+            <p class="small-headers">Fun Fact:</p>
+            <p>
+               I was a former medical technologist/ microbiologist before I got into software engineering. Funny enough, at the time, I also dealt with bugs, but in the bacterial sense.
+            </p>
+            <br/>
+            <p class="small-headers">About Me:</p>
+            <p>So how did I get into software engineering and web development? Well, honestly, it started with curiosity and wanting to know more. I had heard and seen a lot of information about coding which I thought was cool, and I wanted to explore it for myself.</p>
+            <br/>
+            <p> I started off with some YouTube tutorials and was simply amazed by what could be done with just lines of code. I loved the enormous room for creativity and also saw how software could be used to create solutions to everyday problems. It seemed fun and cool enough that I wanted to build my own things. </p>
+            <br/>
+            <p>
+              In Fall of 2022, I decided to enroll in a coding bootcamp to develop my skills and make a career change. Though my microbiology background is very different than that of computer science, I think at the heart of it all, I liked finding out how things worked, building things, and solving problems.
+            </p>
+          </div>
+          <div class="profile-pic-container">
+            <img
+              src="images/profile-img.jpeg"
+              alt="profile picture"
+              class="slide-from-right"
+            />
+          </div>
+        </div>
+        <div class="socials">
+          <a
+            href="https://www.linkedin.com/in/carmen-lee-52061690"
+            target="_blank"
+            class="icon social-links"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/lee2278"
+            target="_blank"
+            class="icon social-links"
+          >
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+          </a>
+          <a href="#contact-section" class="icon social-links">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
-		<!-- Header -->
-			<section id="header" class="dark">
-				<header>
-					<h1>Hi! I'm <strong>Carmen Lee</strong>, a software engineer</h1>
-					<p>I find joy in building innovative applications using JavaScript and Python</p>
-				</header>
-				<footer>
-					<a href="#first" class="button scrolly">Check out my Portfolio</a>
-				</footer>
-			</section>
+    <section class="sec-2">
+      <h2 class="section-title title-slide">Projects</h2>
+      <div class="container">
+        <div class="project-box">
+          <div class="project-info">
+            <a href="https://common-interests.onrender.com/" target="_blank">Common Interests<span class="material-symbols-outlined">
+              open_in_new
+              </span></a>
+            <p>A full-stack clone of Pinterest with a focus on culinary ideas and recipes. This was built using JavaScript, React/Redux, Python, and Flask-SQLAlchemy. With this application, users can create pins to share food or recipe ideas, save pins onto customized boards, and also make edits to their pins or saves.</p>
+          </div>
+          <div class="images-container">
+            <div class="main-image-container">
+              <img id="main-img-1"src="images/project1-img.png" alt="" >
+            </div>
+            <div class="supporting-images-container">
+              <img src="images/project1-img2.png" alt="">
+              <img src="images/project1-img3.png" alt="">
+            </div>
+          </div>
+        </div>
 
-		<!-- First -->
-			<section id="first" class="main">
-				<header>
-					<div class="container">
-						<h2>Portfolio</h2>
-						<p>Here are a few of the projects I have been working on</p>
-					</div>
-				</header>
-				<div class="content dark style1 featured">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<div class="col-6"><a href="https://common-interests.onrender.com" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<header>
-										<h3>Common Interests</h3>
-									</header>
-									<p>A full-stack clone of Pinterest with a focus on culinary ideas and recipes. This was built using JavaScript, React/Redux, Python, and Flask-SQLAlchemy. With this application, users can effortlessly curate and explore their food inspiration.</p>
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									<div class="col-6"><a href="https://everynote-yrm6.onrender.com/" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-									<header>
-										<h3>Everynote</h3>
-									</header>
-									<p>A group project clone of Evernote. Collaborated with a team to create this application which allows users to create and organize personal notes and tasks. It was built with JavaScript, React/Redux, and Flask-SQLAlchemy.</p>
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									<div class="col-6"><a href="https://abnb-clone-6yft.onrender.com" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
-									<header>
-										<h3>HappyBnb</h3>
-									</header>
-									<p>This is a full stack clone of AirBnb. It is an application that allows users to host short-term rentals, leave reviews, and create bookings. Built with JavaScript, Express, and React/Redux.</p>
-								</section>
-							</div>
-							<div class="col-12">
-								<footer>
-									<a href="#second" class="button scrolly">Skills</a>
-								</footer>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+        <div class="project-box">
+             <div class="images-container">
+            <div class="main-image-container">
+              <img id="main-img-2"src="images/project2-img.png" alt="">
+            </div>
+            <div class="supporting-images-container">
+              <img src="images/project2-img2.png" alt="">
+              <img src="images/project2-img3.png" alt="">
+            </div>
+          </div>
+          <div class="project-info">
+            <a href="https://abnb-clone-6yft.onrender.com/" target="_blank">Happybnb <span class="material-symbols-outlined">
+              open_in_new
+              </span></a>
+            <p>This is a full stack web application modeled after Airbnb. It allows users to host short-term rentals, search through listings, leave reviews, and create or edit bookings. It was built with JavaScript, Express, and React/Redux.</p>
+          </div>
+       
+        </div>
 
-		<!-- Second -->
-			<section id="second" class="main">
-				<!-- <header>
-					<div class="container">
-						<h2>Euismod sed feugiat lorem tempus magna</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header> -->
-				<div class="content dark style2">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-12-narrow">
-								<section>
-									<h3>Here are a few of my technical languages and skills</h3>
-									<p>JavaScript | Python | React/Redux | HTML5 | CSS | Node.js | Express | Flask | Sequelize | Postgres</p>
+        <div class="project-box">
+          <div class="project-info">
+            <a href="https://everynote-yrm6.onrender.com/" target="_blank">Everynote <span class="material-symbols-outlined">
+              open_in_new
+              </span></a>
+            <p>A group project inspired by Evernote. This was a note-taking and task management application in which users can create and organize personal notes and tasks. It was built with JavaScript, React/Redux, and Flask-SQLAlchemy.</p>
+          </div>
+          <div class="images-container">
+            <div class="main-image-container">
+              <img id="main-img-3"src="images/project3-img.png" alt="">
+            </div>
+            <div class="supporting-images-container">
+              <img src="images/project3-img2.png" alt="">
+              <img src="images/project3-img3.png" alt="">
+            </div>
+          </div>
+        </div>
 
-								</section>
-							</div>
-							<div class="col-12 col-12-narrow">
-								<div class="row">
-									<!-- <div class="col-6"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-										<div class="col-6"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-										<div class="col-6"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div> -->
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="image fit" /></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" class="image fit"/></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" class="image fit" /></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" class="image fit"/></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" class="image fit"/></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" class="image fit"/></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" class="image fit"/></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" class="image fit"/></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" class="image fit"/></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-plain-wordmark.svg" class="image fit" /></div>
-										<div class="col-2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" class="image fit" /></div>
-									</div>
-								</div>
-								
-							</div>
-							<footer>
-								<a href="#third" class="button scrolly">About Me</a>
-							</footer>
-						</div>
-				</div>
-			</section>
+      </div>
+    </section>
 
-		<!-- Third -->
-			<section id="third" class="main">
-				<header>
-					<div class="container">
-						<h2>About Me</h2>
-						<!-- <p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p> -->
-					</div>
-				</header>
-				<div class="content dark style3">
-					<div class="container">
-						<span class="image featured"><img src="images/pic07.jpg" alt="" /></span>
-						<div class="row">
-							<div class="col-12 col-12-narrow">
-								<!-- <h3>Diam vivamus turpis lorem sodales lectus ornare</h3> -->
-								<p>I was a former microbiologist before I got into software engineering. My journey into software engineering began with having a genuine curiosity about how web applications were made. I saw how software could be used to create efficient and impactful solutions to everyday problems and also saw room for creativity. Curiosity led me to dive into the world of coding, where I discovered the thrill of building fun innovative applications using my logical thinking and problem-solving skills.</p>
-								
-							</div>
-							<!-- <div class="col-4 col-12-narrow">
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-								euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
-								Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia.</p>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<p>Placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui
-								lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc
-								euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue
-								cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat. Lectus ante vel nunc euismod
-								est turpis sodales. Diam tempor dui lacinia dolore.</p>
-								<p>Accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida
-								dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet
-								consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p> -->
-								<footer>
-									<a href="#fourth" class="button scrolly">Contact Me</a>
-								</footer>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    <section class="sec-3">
+      <h2 class="section-title title-slide">Skills</h2>
+      <p>
+        JavaScript | Node.js | Express | React | Redux | HTML5 | CSS | Tailwind
+        CSS | Bootstrap | Python | Flask | Sequelize | PostgreSQL
+      </p>
+      <div class="skills-wrapper">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        />
 
-		<!-- Basic Elements -->
-		<!--
-			<section class="main">
-				<header>
-					<div class="container">
-						<h2>A Whole Lotta Elements</h2>
-						<p>General purpose elements for every general purpose. Or something like that.</p>
-					</div>
-				</header>
-				<div class="content style1 dark">
-					<div class="container">
-						<section>
-							<header>
-								<h3>Paragraph</h3>
-								<p>This is a byline</p>
-							</header>
-							<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-							habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-							leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-							amet risus elit.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Blockquote</h3>
-							</header>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-							tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
-							tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
-						</section>
-						<section>
-							<header>
-								<h3>Divider</h3>
-							</header>
-							<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-							<hr />
-							<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Unordered List</h3>
-							</header>
-							<ul class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-							</ul>
-						</section>
-						<section>
-							<header>
-								<h3>Ordered List</h3>
-							</header>
-							<ol class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-							</ol>
-						</section>
-						<section>
-							<header>
-								<h3>Table</h3>
-							</header>
-							<div class="table-wrapper">
-								<table class="default">
-									<thead>
-										<tr>
-											<th>ID</th>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>00001</td>
-											<td>Lorem ipsum dolor</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00002</td>
-											<td>Sit amet nullam</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00003</td>
-											<td>Feugiat felis viverra</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00004</td>
-											<td>Sagittis enim felis</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00005</td>
-											<td>Nullam sed vestibulum</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="3"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-						<section>
-							<header>
-								<h3>Form</h3>
-							</header>
-							<form method="post" action="#">
-								<div class="row gtr-50">
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="name" id="name" value="" placeholder="John Doe" />
-									</div>
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-									</div>
-									<div class="col-12">
-										<div class="select" tabindex="-1">
-											<select name="department" id="department">
-												<option value="">Choose a department</option>
-												<option value="1">Manufacturing</option>
-												<option value="2">Administration</option>
-												<option value="3">Support</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Enter your message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" class="button" value="Send Message" /></li>
-											<li><input type="reset" class="button alt" value="Clear Form" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-					</div>
-				</div>
-			</section>
-		-->
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"
+        />
 
-		<!-- Fourth -->
-			<section id="fourth" class="main">
-				<header>
-					<div class="container">
-						<h2>Contact Me</h2>
-						<p>Thanks for visiting my site! I'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out to me using the contact form below. I'll do my best to get back to you as soon as possible</p>
-					</div>
-				</header>
-				<div class="content style4 featured">
-					<div class="container medium">
-						<form method="post" action="https://formspree.io/f/xknlwkky">
-							<div class="row gtr-50">
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
-								<div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" class="button" value="Send Message" /></li>
-										<li><input type="reset" class="button alt" value="Clear Form" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</section>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+        />
 
-		<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-					<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-					<li><a href="https://github.com/lee2278" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="https://www.linkedin.com/in/carmen-lee-52061690/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				</ul>
-				<div class="copyright">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</section>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+        />
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+        />
 
-	</body>
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-plain-wordmark.svg"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
+        />
+      </div>
+    </section>
+    <section class="sec-4" id="contact-section">
+      <h2 class="section-title title-slide">Contact Me</h2>
+      <p class="subtitle">
+        Thanks for visiting my site! I'd love to hear from you! Whether you have
+        a question, feedback, or just want to say hello, feel free to reach out
+        to me using the contact form below. I'll do my best to get back to you
+        as soon as possible
+      </p>
+      <div class="form-container">
+        <form method="POST" action="https://formspree.io/f/xknlwkky">
+          <div class="contact-info">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+
+          <button>Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
