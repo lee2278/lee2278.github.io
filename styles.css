@@ -46,7 +46,8 @@ h3 {
 
 /* Specific sections  */
 .sec-1 {
-  padding: 1.5rem 0;background-image: linear-gradient(
+  padding: 1.5rem 0;
+  background-image: linear-gradient(
     140deg,
     hsl(212deg 39% 31%) 0%,
     hsl(213deg 41% 30%) 11%,
@@ -151,13 +152,13 @@ h3 {
 .slide-from-right {
   opacity: 0;
   transform: translateX(50%);
-  transition: transform 800ms ease-in 1500ms;
+  transition: transform 800ms ease-in 1500ms, opacity 1500ms ease-in 600ms;
 }
 
 .slide-from-left {
   opacity: 0;
   transform: translateX(-70%);
-  transition: transform 700ms ease-in 800ms;
+  transition: transform 700ms ease-in 800ms, opacity 1500ms ease-in 600ms;
 }
 
 .title-slide {
@@ -439,6 +440,23 @@ button:hover {
   .contact-info > input {
     width: 100%;
   } 
+  .section-title{
+    font-size: clamp(1.5rem, 2.5vw, 2rem)
+  }
+
+  .socials a {
+    font-size: 1rem;
+    margin: auto 0.5rem;
+  }
+
+  .profile-pic-container {
+    width: 300px;
+    height: 300px;
+  }
+  .info {
+    padding: 3rem 1.5rem;
+    width: 65%;
+  }
   
 }
 
