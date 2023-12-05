@@ -6,9 +6,9 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x:hidden;
 }
 body {
-  overflow-x:hidden;
   color:lightblue;
 }
 
@@ -41,7 +41,7 @@ h3 {
 .section-title {
   margin-top: 5rem;
   margin-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* Specific sections  */
