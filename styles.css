@@ -10,6 +10,7 @@ html {
 }
 body {
   color:lightblue;
+  overflow-x:hidden;
 }
 
 section, .container, .content {
