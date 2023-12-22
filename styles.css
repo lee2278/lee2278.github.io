@@ -256,14 +256,14 @@ h3 {
     align-items: center;
   }
 
-  .main-image-container > img {
+  .main-image-container > a > img {
     border-radius: 5px;
     width: 100%;
     transition: opacity 400ms ease-in;
     opacity: 0;
   }
 
-  .main-image-container > img.appear {
+  .main-image-container > a > img.appear {
     opacity: 1;
   }
   
@@ -275,6 +275,10 @@ h3 {
   }
   #main-img-3 {
     height: 95%;
+  }
+
+  .main-image-container > a > img.appear:hover {
+    border: 5px solid rgb(245, 82, 117);
   }
 
 
@@ -308,6 +312,7 @@ h3 {
 
 .project-info > a:hover {
   font-size: 1.6rem;
+  text-shadow: 2px 2px 5px rgb(245,82,117);
 }
 
 /* section3 */
@@ -398,6 +403,7 @@ form > div input{
   height: 2rem;
   border-radius: 5px;
   background: lightblue;
+  padding: 0 0.5rem;
 
 }
 
@@ -405,11 +411,12 @@ textarea {
   margin: 2rem 0;
   border-radius: 5px;
   background: lightblue;
+  padding: 0.5rem 0.5rem;
 }
 
 button {
   cursor: pointer;
-  height:2rem;
+  padding: 0.5rem 0;
   width: 60%;
   align-self: center;
   background: lightblue;
